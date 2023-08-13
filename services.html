@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name=" viewport" content="width=device-width,initial-scale=1.0" />
+    <title> services</title>
+    <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+
+    <header>
+        <h2 class="logo">Wanderlust Adventures</h2>
+        <nav class="navigation">
+            <a href="home.html">home</a>
+            <a href="about.html">about</a>
+            <a href="services.html">services</a>
+            <a href="contact.html">contact</a>
+            <button class="btnlogin-popup">Login</button>
+        </nav>
+    </header>
+
+    
+
+    <div class="wrapper">
+        <div class="form-box login">
+            <h2>login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required />
+                    <label>email</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required />
+                    <label>password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox"> remember me?
+                        <a href="# ">forgot password</a>
+                    </label>
+                </div>
+                <button type="submit" class="btnlogin-popup">log in</button>
+                <div class="login-register">
+                    <p>
+                        dont have an account?
+                        <a href="#" class="register-link">Register</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required />
+                    <label>email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="people-circle-outline"></ion-icon>
+                    </span>
+                    <input type="text" required />
+                    <label>Username</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required />
+                    <label>password</label>
+                </div>
+
+
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox"> agree to terms and conditions
+                    </label>
+                </div>
+                <button type="submit" class="btnlogin-popup">Register</button>
+                <div class="login-register">
+                    <p>
+                        already have an account?
+                        <a href="#"
+                           class="login-link">Log in</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
